@@ -40,7 +40,7 @@ def remove_named_ranges(input_file_path):
     except Exception as e:
         print(f"Xatolik yuz berdi: {e}")
 
-input_file_path = "G:\data\KEPAY\Labaratoriya\lab.xlsx"
+input_file_path = r"C://path/s/s/name.xlsx"
 remove_named_ranges(input_file_path)
 print("💬 E'tibor bering, bu kod faqat juda ham ko'p nomlangan elementlar bor elementalrni o'chirishga qo'llashingiz mumkin.")
 print("💬 Nomli elementlar juda ko'p bo'lsa, Excelni o'zidan o'chira olmasiz. Hattoki, tugmasi ham ishlamaydi.")
